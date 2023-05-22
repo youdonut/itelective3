@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M181.249%2c23.555C200.874%2c23.518%2c221.715%2c20.011%2c232.41%2c3.556C243.955%2c-14.206%2c244.685%2c-38.21%2c232.787%2c-55.737C221.954%2c-71.696%2c200.533%2c-72.214%2c181.249%2c-71.811C162.94%2c-71.428%2c143.624%2c-68.791%2c133.311%2c-53.658C121.738%2c-36.677%2c118.913%2c-13.709%2c129.752%2c3.75C140.149%2c20.497%2c161.537%2c23.592%2c181.249%2c23.555' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-9.6511917372417 555.5337880161476L97.30348045412701 528.8669932039265-36.317986549462745 448.57911582477885z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M971.819%2c638.469C1034.944%2c639.325%2c1092.832%2c602.431%2c1122.989%2c546.968C1151.89%2c493.815%2c1143.668%2c430.335%2c1113.504%2c377.888C1083.242%2c325.27%2c1032.514%2c284.925%2c971.819%2c284.121C909.851%2c283.3%2c853.648%2c319.911%2c823.482%2c374.047C794.099%2c426.778%2c798.053%2c490.315%2c827.587%2c542.962C857.824%2c596.862%2c910.023%2c637.631%2c971.819%2c638.469' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M241.118%2c610.41C280.189%2c610.072%2c313.455%2c586.304%2c334.399%2c553.32C357.27%2c517.302%2c370.398%2c473.906%2c352.339%2c435.251C331.479%2c390.601%2c290.372%2c351.996%2c241.118%2c353.657C193.675%2c355.257%2c162.63%2c399.503%2c142.176%2c442.34C124.834%2c478.66%2c124.58%2c520.276%2c144.998%2c554.96C165.111%2c589.124%2c201.474%2c610.753%2c241.118%2c610.41' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M302.703%2c178.528C336.031%2c176.366%2c361.652%2c152.959%2c378.883%2c124.349C396.834%2c94.543%2c408.81%2c59.202%2c393.338%2c28.037C376.317%2c-6.248%2c340.954%2c-30.541%2c302.703%2c-29.1C266.359%2c-27.731%2c241.42%2c2.988%2c223.171%2c34.448C204.835%2c66.058%2c189.576%2c103.491%2c207.236%2c135.484C225.317%2c168.239%2c265.367%2c180.95%2c302.703%2c178.528' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M120.97%2c117.182C139.579%2c116.873%2c156.34%2c106.24%2c165.404%2c89.984C174.236%2c74.146%2c173.917%2c54.694%2c164.435%2c39.237C155.361%2c24.445%2c138.313%2c18.145%2c120.97%2c17.554C102.292%2c16.917%2c82.085%2c20.32%2c72.051%2c36.087C61.415%2c52.799%2c63.675%2c74.541%2c73.907%2c91.503C83.801%2c107.904%2c101.819%2c117.5%2c120.97%2c117.182' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    max-width: fit-content;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+}
+
+form input {
+    font-family: 'Lato', sans-serif;
+    padding: .5rem .5rem;
+    border-style: none;
+    border-radius: .5rem;
+}
+
+#submit {
+    font-weight: bold;
+    color: #392e4a;
+    background-color: #efeff0;
+}
+
+.container h1 {
+    color: whitesmoke;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <nav>
+        </nav>
+        <div class="wrapper">
+            <form id="regForm" action="" method="post">
+                <div class="formHeader">
+                    <img src="img/csta_logo.png" alt="">
+                    <h3>Student Registration</h3>
+                </div>
+                <input type="text" name="studId" id="" required placeholder="Student No.">
+                <input type="text" name="studId" id="" required placeholder="Firstname">
+                <input type="text" name="studId" id="" required placeholder="Middlename">
+                <input type="text" name="studId" id="" required placeholder="Lastname">
+                <input type="date" name="" id="">
+
+                <div>
+                    <input type="radio" name="male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="female" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">Roman Catholic</option>
+                    <option value="">Iglesia Ni Christ Brown</option>
+                </select>
+                <input type="email" name="" id="" required placeholder="johndoe@xyz.com">
+                <input type="text" name="studId" id="" required placeholder="Father's Name">
+                <input type="text" name="studId" id="" required placeholder="Mother's Name">
+                <input type="tel" name="" id="" placeholder="+63 9123 456  789">
+                <input type="email" name="" id="" required placeholder="johndoe@xyz.com">
+
+                <input type="text" name="" id="" placeholder="Postal Code">
+                <input type="text" name="" id="" placeholder="Street Name, Building, House No.">
+                <select name="" id="">
+                    <option value="">Barangay Tibay</option>
+                    <option value="">Barangay 1</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Caloocan City</option>
+                    <option value="">Quezon City</option>
+                </select>
+                <select name="" id="">
+                    <option value="">NCR</option>
+                    <option value="">CALABARZON</option>
+                </select>
+                <input type="submit" value="Register" id="btnSubmit">
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.globe.min.js"></script>
+    <script>
+        VANTA.GLOBE({
+            el: "#root",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xFF6E31,
+            color2: 0xFF6E31,
+            backgroundColor: 0xF8EAD8
+        })
+    </script>
+</body>
+
+</html>
